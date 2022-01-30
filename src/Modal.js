@@ -2,9 +2,9 @@ import React from "react";
 import { useGlobalContext } from "./context";
 
 const Modal = () => {
-  const { isModelOpen, closeModal, questions, correct } = useGlobalContext();
+  const { isModalOpen, closeModal, questions, correct } = useGlobalContext();
   return (
-    <div className={`${isModelOpen ? "modal-container isOpen" : "modal-container"}`}>
+    <div className={`${isModalOpen ? "modal-container isOpen" : "modal-container"}`}>
       <div className="modal-content">
         <h2>congrats!</h2>
         <p>
