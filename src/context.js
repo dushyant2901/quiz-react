@@ -64,7 +64,7 @@ const AppProvider = ({ children }) => {
     setIndex((index) => {
       let newIndex = index + 1;
       if (newIndex > questions.length - 1) {
-          console.log('first');
+         
        openModal();
        return 0
       } else {
